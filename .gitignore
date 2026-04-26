@@ -1,0 +1,32 @@
+# Datos sensibles que NO deben subirse al repo público
+.claude.json
+.claude.json.backup-*
+*.bak
+*.backup
+manifest.json.backup-*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Local config that may contain absolute paths or PII
+.claude/settings.local.json
