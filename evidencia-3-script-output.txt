@@ -1,0 +1,42 @@
+======================================================================
+EVIDENCIA RECLAMO ANTHROPIC — Generado: 2026-04-26T04:48:29.706035+00:00
+======================================================================
+
+## 1. SKILLS REALMENTE INVOCADAS (de ~/.claude.json -> skillUsage)
+
+Skill                                                           Invocaciones
+------------------------------------------------------------------------------
+update-config                                                              6
+abogado-del-diablo                                                         3
+anthropic-skills:bitacorista-py                                            1
+bitacora:bitacorista-py                                                    1
+repair-help                                                                1
+------------------------------------------------------------------------------
+TOTAL skills distintas invocadas:                                          5
+TOTAL invocaciones acumuladas:                                            12
+
+## 2. SKILLS CARGADAS POR TURNO (del system reminder)
+
+No se pasó --skills-cap. Para conteo automatico,
+pegá el bloque <skills> del system reminder en un .txt y pasalo.
+Conteo verificado manualmente 2026-04-24: 296 skills.
+
+## 3. ESTIMACION DAÑO (asumiendo 50 turnos/dia, 30 dias)
+
+Tokens fixed cost / turno (lower):        12,700
+Tokens fixed cost / turno (upper):        16,000
+Tokens consumidos por mes (lower):    19,050,000
+Tokens consumidos por mes (upper):    24,000,000
+Porcentaje de ventana 200k:                 6.35%
+Porcentaje de ventana 1M:                   1.27%
+
+## 4. RATIO UTILIZACION
+
+Skills cargadas: 296
+Skills invocadas alguna vez: 5
+Ratio utilización ever-used: 1.69%
+Skills nunca invocadas (waste): 291 (98.31%)
+
+======================================================================
+Reproducible: pasale tu propio ~/.claude.json y obtené el mismo formato.
+======================================================================
